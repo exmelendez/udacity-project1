@@ -83,6 +83,7 @@ table {
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  letter-spacing: 4px;
 }
 
 .header__logo:hover {
@@ -98,14 +99,36 @@ table {
   height: 140px;
   width: 80%;
   margin: 17px auto;
-  padding: 13px;
+  padding: 0;
   border-radius: 3px;
   border: 1.5px solid #cecece;
 
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.7em;
+  font-size: 1em;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content__card-title {
+  width: 100%;
+  height: 52px;
+  padding: 6px;
+  margin: 0;
+
+  font-weight: 400;
+  letter-spacing: 1px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-shadow: 1px 1px 15px rgb(197, 195, 195);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .btn {
@@ -114,12 +137,32 @@ table {
 
 .content__card_one {
   background-image: url('https://media.wired.com/photos/5d09594a62bcb0c9752779d9/16:9/w_2000,h_1125,c_limit/Transpo_G70_TA-518126.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.content__card_two {
+  background-image: url('https://www.rollingstone.com/wp-content/uploads/2021/09/drake-5-things-CLB.jpg');
+}
+
+.content__card_three {
+  background-image: url('https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2019/02/06/2vi5s9ttnl_Julie_Larsen_Maher_9757_Snow_Leopard_Khyber_HIM_BZ_01_25_19.JPG');
+}
+
+.content__card_four {
+  background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/170606121056-hawaii---travel-destination---shutterstock-457528552.jpg');
+}
+
+.content__card_five {
+  background-image: url('https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/c82b013313066e0702d58dc70db033ca.jpg');
+}
+
+.content__card_six {
+  background-image: url('https://media.pitchfork.com/photos/627ea3fd992ca0c25e5eb6ae/master/w_1280%2Cc_limit/Stranger-Things-4.jpg');
 }
 
 .footer {
-  background: pink;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  background: #6c757d;
+  color: #fff;
   padding: 1%;
 }
