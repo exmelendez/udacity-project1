@@ -1,0 +1,27 @@
+.content__card {
+  height: 140px;
+  width: 80%;
+  margin: 17px auto;
+  padding: 0;
+  border-radius: 3px;
+  border: 1.5px solid #cecece;
+
+  color: #fff;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .content__card {
+    margin: 0;
+  }
+}
+
+@media(min-width: 992px) {
+  .content__card {
+    height: 400px;
+    margin: 0;
+  }
+}

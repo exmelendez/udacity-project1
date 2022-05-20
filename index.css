@@ -1,0 +1,44 @@
+@import './blocks/page/page.css';
+@import './blocks/header/header.css';
+@import './blocks/content/content.css';
+@import './blocks/content/__card-title/content__card-title.css';
+
+.btn {
+  margin: auto;
+}
+
+.content__card_one {
+  background-image: url('https://media.wired.com/photos/5d09594a62bcb0c9752779d9/16:9/w_2000,h_1125,c_limit/Transpo_G70_TA-518126.jpg');
+}
+
+.content__card_two {
+  background-image: url('https://www.rollingstone.com/wp-content/uploads/2021/09/drake-5-things-CLB.jpg');
+}
+
+.content__card_three {
+  background-image: url('https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2019/02/06/2vi5s9ttnl_Julie_Larsen_Maher_9757_Snow_Leopard_Khyber_HIM_BZ_01_25_19.JPG');
+}
+
+.content__card_four {
+  background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/170606121056-hawaii---travel-destination---shutterstock-457528552.jpg');
+}
+
+.content__card_five {
+  background-image: url('https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/c82b013313066e0702d58dc70db033ca.jpg');
+}
+
+.content__card_six {
+  background-image: url('https://media.pitchfork.com/photos/627ea3fd992ca0c25e5eb6ae/master/w_1280%2Cc_limit/Stranger-Things-4.jpg');
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  background: #6c757d;
+  color: #fff;
+  padding: 1%;
+  width: 100%;
+
+  /* position: sticky; */
+  /* bottom: 0; */
+}

@@ -1,0 +1,8 @@
+@import url('./__logo/header__logo.css');
+
+.header {
+  background: #000;
+  text-align: center;
+  padding: 1%;
+  width: 100%;
+}

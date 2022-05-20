@@ -1,0 +1,26 @@
+@import url('./__card/content__card.css');
+
+.content {
+  /* display: flex; */
+  /* display: block; */
+  flex: 1;
+  width: 100%;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .content {
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(auto, 50px);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(min-width: 992px) {
+  .content {
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
