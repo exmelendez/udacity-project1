@@ -1,0 +1,15 @@
+.content__card-btn {
+  margin: auto 80px;
+}
+
+@media(min-width: 992px) {
+  .content__card-btn {
+    margin: 27px 30px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .content__card-btn {
+    margin: auto 90px;
+  }
+}

@@ -1,3 +1,10 @@
+@import url('./_img/content__card_img_one.css');
+@import url('./_img/content__card_img_two.css');
+@import url('./_img/content__card_img_three.css');
+@import url('./_img/content__card_img_four.css');
+@import url('./_img/content__card_img_five.css');
+@import url('./_img/content__card_img_six.css');
+
 .content__card {
   height: 140px;
   width: 80%;
@@ -11,6 +18,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
