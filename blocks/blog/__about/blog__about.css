@@ -1,0 +1,18 @@
+.blog__about {
+  background-color: #6c757d;
+  margin: 20px 20px;
+  color: #fff;
+  padding: 10px;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .blog__about {
+    height: 285px;
+  }
+}
+
+@media(min-width: 992px) {
+  .blog__about {
+    height: 237px;
+  }
+}

@@ -1,0 +1,10 @@
+.blog__share {
+  margin: 0 0 0 20px;
+  width: 50%;
+}
+
+@media(max-width: 333px) {
+  .blog__share {
+    width: 47%;
+  }
+}

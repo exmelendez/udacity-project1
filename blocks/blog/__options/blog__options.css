@@ -1,0 +1,15 @@
+.blog__options {
+  width: 75%;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media(min-width: 768px) {
+  .blog__options {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+@import url('./__container/blog__container.css');
+@import url('./__header/blog__header.css');
+@import url('./__title/blog__title.css');
+@import url('./__date/blog__date.css');
+@import url('./__author/blog__author.css');
+@import url('./__article/blog__article.css');
+@import url('./__paragraph/blog__paragraph.css');
+@import url('./__options/blog__options.css');
+@import url('./__share/blog__share.css');
+@import url('./__share-title/blog__share-title.css');
+@import url('./__social-btns/blog__social-btns.css');
+@import url('./__about/blog__about.css');
+@import url('./__about-author/blog__about-author.css');
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media(min-width: 768px) {
+  .blog {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,9 @@
+.blog__title {
+  margin: 0;
+}
+
+@media(min-width: 992px) {
+  .blog__title {
+    font-size: 3.2em;
+  }
+}
