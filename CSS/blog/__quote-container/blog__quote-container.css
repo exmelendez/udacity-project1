@@ -1,0 +1,11 @@
+.blog__quote-container {
+  border: 2px solid rgb(72, 45, 209);
+  border-radius: 1.5%;
+  width: 80%;
+  padding: 10px 14px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

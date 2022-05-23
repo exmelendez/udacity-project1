@@ -1,6 +1,7 @@
 .blog__options {
   width: 75%;
 
+  padding-top: 20px;
   margin: auto;
   display: flex;
   flex-direction: row;
