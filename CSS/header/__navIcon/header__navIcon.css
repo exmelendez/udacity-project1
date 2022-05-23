@@ -4,3 +4,9 @@
   right: 0;
   top: 0;
 }
+
+@media(min-width: 992px) {
+  .header__navIcon {
+    display: none;
+  }
+}
