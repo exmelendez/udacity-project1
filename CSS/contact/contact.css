@@ -1,0 +1,11 @@
+@import url('./__title/contact__title.css');
+@import url('./__instructions/contact__instructions.css');
+@import url('./__form/contact__form.css');
+@import url('./__input/contact__input.css');
+@import url('./__submit/contact__submit.css');
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
