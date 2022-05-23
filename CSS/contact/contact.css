@@ -3,6 +3,7 @@
 @import url('./__form/contact__form.css');
 @import url('./__input/contact__input.css');
 @import url('./__submit/contact__submit.css');
+@import url('./__warning/contact__warning.css');
 
 .contact {
   display: flex;

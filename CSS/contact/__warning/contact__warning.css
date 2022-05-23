@@ -1,0 +1,10 @@
+.contact__warning {
+  width: 90%;
+  margin: 0;
+  padding: 7px 20px 0 20px;
+  
+  color: red;
+  text-align: center;
+  font-size: 0.7em;
+  font-style: italic;
+}
