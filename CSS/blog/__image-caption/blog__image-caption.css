@@ -1,0 +1,15 @@
+.blog__image-caption {
+  width: 72%;
+  padding-top: 4px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.7em;
+  font-style: italic;
+  line-height: 13px;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .blog__image-caption {
+    font-size: 0.6em;
+  }
+}

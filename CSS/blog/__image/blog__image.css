@@ -1,0 +1,17 @@
+.blog__image {
+  padding-top: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .blog__image {
+    width: 70%;
+  }
+}
+
+@media(min-width: 992px) {
+  .blog__image {
+    width: 60%;
+  }
+}

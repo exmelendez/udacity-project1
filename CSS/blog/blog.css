@@ -11,6 +11,9 @@
 @import url('./__social-btns/blog__social-btns.css');
 @import url('./__about/blog__about.css');
 @import url('./__about-author/blog__about-author.css');
+@import url('./__image-container/blog__image-container.css');
+@import url('./__image/blog__image.css');
+@import url('./__image-caption/blog__image-caption.css');
 
 .blog {
   display: flex;
