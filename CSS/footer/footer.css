@@ -1,8 +1,10 @@
 .footer {
+  width: 100%;
+  padding: 1%;
+  margin-top: auto;
+  background: #6c757d;
+
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
-  background: #6c757d;
   color: #fff;
-  padding: 1%;
-  width: 100%;
 }
