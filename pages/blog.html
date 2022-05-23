@@ -8,20 +8,31 @@
   <link rel="stylesheet" href="../CSS/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/2e0e252e85.js" crossorigin="anonymous"></script>
+  <script src="../js/index.js"></script>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <a class="header__logo" href="../index.html">Blog Home</a>
+      <div class="header__nav">
+        <a class="header__logo" href="../index.html">The Bloggy</a>
+        <div class="header__navLinks" id="navLinks">
+          <a class="header__navLink" href="../index.html">Home</a>
+          <a class="header__navLink" href="./contact.html">Contact</a>
+          <a class="header__navLink" href="#about">About</a>
+        </div>
+        <a class="header__navLink header__navIcon" href="javascript:void(0);" onclick="toggleNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </header>
 
     <section class="blog">
 
       <div class="blog__container">
         <div class="blog__header">
-          <h1 class="blog__title">Blog Title</h1>
-          <p class="blog__date">May 22, 2022</p>
-          <p class="blog__author">by <em>Eddie Melendez</em></p>
+          <h1 class="blog__title"><strong>Blog Title</strong></h1>
+          <h2 class="blog__date">May 22, 2022</h2>
+          <h3 class="blog__author">by <strong><em>Eddie Melendez</em></strong></h3>
         </div>
 
         <article class="blog__article">
